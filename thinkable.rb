@@ -1,6 +1,8 @@
-#クラスではなくモジュールで
 module Thinkable
+
     def think
-        puts "私は#{self.hobby}について考えています。"
+        thinking = "私は#{self.hobby}について考えています。"
+        puts thinking
     end
+    
 end

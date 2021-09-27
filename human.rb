@@ -1,4 +1,3 @@
-#Thinkableのthinkメソッドを使う
 require './animal'
 require './thinkable'
 
@@ -15,9 +14,3 @@ class Human < Animal
     end
     
 end
-
-
-
-#動作確認ok
-#human = Human.new("田中太郎", 25, "電車")
-#human.think
